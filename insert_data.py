@@ -22,7 +22,7 @@ try:
 
         insert_query = """INSERT INTO employees (id, name, hire_date) 
                           VALUES (%s, %s, %s)"""
-        data_to_insert = (3, 'deepak', '2024-10-01')
+        data_to_insert = (1, 'Ashmit Sinha', '2024-10-01')
 
         cursor.execute(insert_query, data_to_insert)
 
